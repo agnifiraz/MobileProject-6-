@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.example.info_5126_mobile_dev_project.APIFormat" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background3"
+        tools:context=".UserReadingPage">
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="onClickBack"
+            android:layout_margin="15dp"
+            android:src="@drawable/back"
+            android:contentDescription="@string/back_desc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/recyclerViewReadingPage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewAbout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="onClickAbout"
+            android:layout_margin="15dp"
+            android:src="@drawable/about1"
+            android:contentDescription="@string/about_desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewReadingPage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBack" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

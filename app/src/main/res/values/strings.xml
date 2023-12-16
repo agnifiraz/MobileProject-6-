@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">INFO_5126_Mobile_Dev_Project</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="confirm_password"> Confirm Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="action_register">Register new user</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_user">Welcome new user</string>
+    <string name="problem">Problem creating account</string>
+    <string name="logout">Logout</string>
+    <string name="logged_out">You are now logged out</string>
+    <string name="no_account">Do not have an account? Register Here </string>
+    <string name="here">Here</string>
+    <string name="add">Add to Cloud</string>
+    <string name="read">Read from Cloud</string>
+    <string name="app_intro"> Are you interest in Top stories of the world?</string>
+    <string name="welcome_app"> Welcome to our App!</string>
+    <string name="section_info"> Get all info about the selected item</string>
+    <string name="title_info"> Get info about the title</string>
+    <string name="title_button"> Want to search by Title?</string>
+    <string name="section_input_text"> What section do you want to choose for Arts? </string>
+    <string name="section_text"> Section Name  </string>
+    <string name="about_info"> About app  </string>
+    <string name="author1"> Kieran Primeau  </string>
+    <string name="author2"> Agnita Paul  </string>
+    <string name="main_info"> Search info on specific title</string>
+    <string name="about_desc">About Icon</string>
+    <string name="back_desc">Back Icon</string>
+    <string name="save_data">Save Data</string>
+    <string name="list_item_desc">List Item Image</string>
+    <string name="hint_text">Here is some hint text</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username_icon">Username-Icon</string>
+    <string name="password_icon">Password-Icon</string>
+    <string name="padlock_icon">Padlock-Icon</string>
+    <string name="already_user">Already a user? Login.</string>
+    <string name="search_reading">Search your reading list</string>
+    <string name="Title_Name_Choose">Choose Title</string>
+    <string name="Section_Name">Section</string>
+    <string name="View_All_Data">View all data of section or title</string>
+    <string name="about">This app allows you to see many different articles from different topics and to press on your favourites
+    to save them for reading later. You can use the drop down to select a specific section or title to search for topics or specific
+    articles that interest you.</string>
+    <string name="view_Reading_List">View Reading List\n</string>
+
+    <string-array name="section_array">
+        <item>arts</item>
+        <item>movies</item>
+        <item>books</item>
+        <item>world</item>
+        <item>theater</item>
+        <item>travel</item>
+
+    </string-array>
+
+</resources>
